@@ -4,8 +4,10 @@ author: cody_carvel@brown.edu
 date: YYYY-MM-DD
 paging: Slide %d / %d
 ---
-# SHELLSAGE 
+# shell_sage 
+[Presentation](https://github.com/ccarvel/odds/blob/main/slides/shell_sage.md)
 
+# AI CONNECTED TERMINAL ROBOT
 Works by understanding your terminal context
 
 [on GitHub](https://github.com/AnswerDotAI/shell_sage)
@@ -84,7 +86,7 @@ For OpenAI (optional) ```export OPENAI_API_KEY=sk...```
 
 ---
 # EXAMPLES...PDF > IMAGES
-```ssage "how can I extract each page of a pdf as a .tiff image in its original ppi and color mode to a specific path?"```
+```ssage "how can I extract each page of a pdf as a .tiff image to a specific path, while retaining its original ppi and color mode?"```
 
 ---
 # EXAMPLES...VIDEO - ADD SUBTITLES
@@ -100,22 +102,22 @@ For OpenAI (optional) ```export OPENAI_API_KEY=sk...```
 
 ---
 # EXAMPLES...TXT ADD
-```ssage "how do I add the filename followed by a line break to the beginning of every txt file in this directory?"```
+```ssage "how do I add the filename followed by a line break to the beginning of every txt file in a directory?"```
 
 ---
 # OTHER THINGS YOU CAN DO (THAT I HAVEN'T!)
 
 *Advanced Use Cases*
 
-## GIT WORKFLOW ENHANCEMENT
+### GIT WORKFLOW ENHANCEMENT
 
-# REVIEW CHANGES BEFORE COMMIT
+## REVIEW CHANGES BEFORE COMMIT
 ```git diff | ssage summarize these changes```
 
-# GET COMMIT MESSAGE SUGGESTIONS
+## GET COMMIT MESSAGE SUGGESTIONS
 ```git diff --staged | ssage suggest a commit message```
 
-# ANALYZE PR FEEDBACK
+## ANALYZE PR FEEDBACK
 ```gh pr view 123 | ssage summarize this PR feedback```
 
 ---
@@ -123,15 +125,15 @@ For OpenAI (optional) ```export OPENAI_API_KEY=sk...```
 
 *MORE Advanced Use Cases*
 
-## LOG ANALYSIS
+### LOG ANALYSIS
 
-# QUICK ERROR INVESTIGATION
+## QUICK ERROR INVESTIGATION
 ```journalctl -xe | ssage what's causing these errors?```
 
-# APACHE/NGINX LOG ANALYSIS
+## APACHE/NGINX LOG ANALYSIS
 ```tail -n 100 /var/log/nginx/access.log | ssage analyze this traffic pattern```
 
-# SYSTEM PERFORMANCE INVESTIGATION
+## SYSTEM PERFORMANCE INVESTIGATION
 ```top -b -n 1 | ssage explain system resource usage```
 
 ---
@@ -139,15 +141,15 @@ For OpenAI (optional) ```export OPENAI_API_KEY=sk...```
 
 *MORE MORE Advanced Use Cases*
 
-## DOCKER MANAGEMENT
+### DOCKER MANAGEMENT
 
-# CONTAINER TROUBLESHOOTING
+## CONTAINER TROUBLESHOOTING
 ```docker logs my-container | ssage "what is wrong with this container?"```
 
-# IMAGE OPTIMIZATION
+## IMAGE OPTIMIZATION
 ```docker history my-image | ssage suggest optimization improvements```
 
-# COMPOSE FILE ANALYSIS
+## COMPOSE FILE ANALYSIS
 ```cat docker-compose.yml | ssage review this compose configuration```
 
 ---
@@ -155,15 +157,15 @@ For OpenAI (optional) ```export OPENAI_API_KEY=sk...```
 
 *YET EVEN MORE Advanced Use Cases*
 
-## DATABASE OPERATIONS
+### DATABASE OPERATIONS
 
-# QUERY OPTIMIZATION
+## QUERY OPTIMIZATION
 ```psql -c "EXPLAIN ANALYZE SELECT..." | ssage optimize this query```
 
-# SCHEMA REVIEW
+## SCHEMA REVIEW
 ```pg_dump --schema-only mydb | ssage review this database schema```
 
-# INDEX SUGGESTIONS
+## INDEX SUGGESTIONS
 ```psql -c "\di+" | ssage suggest missing indexes```
 
 ---
